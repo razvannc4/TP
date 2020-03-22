@@ -1,5 +1,0 @@
-﻿  Source.c
-c:\users\razvan\source\repos\project9\project9\source.c(20): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-c:\users\razvan\source\repos\project9\project9\source.c(20): warning C4024: 'suma': different types for formal and actual parameter 3
-c:\users\razvan\source\repos\project9\project9\source.c(21): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
-  Project9.vcxproj -> C:\Users\Razvan\source\repos\Project9\Debug\Project9.exe
