@@ -7,19 +7,16 @@
 #include<stdio.h>
 #include <math.h>
 
-void suma(int a, int b, int *s)
-{
-	*s=a+b;
-}
 
 int main()
 {
-	int *s=0, a, b;
-	scanf("%d", &a);
-	scanf("%d", &b);
-	suma(a,b,&s);
-	printf("\n%d",s);
-
+	int sum, a, b, *p1, *p2;
+	p1 = &a;
+	p2 = &b;
+	printf("Cele 2 numere sunt:\n");
+	scanf("%d%d", p1, p2);
+	sum = *p1 + *p2;
+	printf("Suma lui %d si %d este %d\n", *p1, *p2, sum);
 	system("Pause");
 	return 0;
 
